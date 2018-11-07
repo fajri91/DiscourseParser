@@ -214,8 +214,6 @@ def evaluate(data, parser, vocab, outputFile):
     print("sentence num: %d,  parser time = %.2f " % (len(data), during_time))
     return F.getAccuracy()
 
-
-
 if __name__ == '__main__':
     random.seed(666)
     np.random.seed(666)
